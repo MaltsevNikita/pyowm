@@ -11,7 +11,7 @@ w = observation.get_weather()
 
 temperature = w.get_temperature('celsius')['temp']
 
-print("Температура:")
+print("Температура в Волгограде:")
 print(str(temperature)+" Градусов Цельсия")
 print("Влажность: ")
 print(str(w.get_humidity()) + "%")
