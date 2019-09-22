@@ -15,3 +15,6 @@ print("Температура:")
 print(str(temperature)+" Градусов Цельсия")
 print("Влажность: ")
 print(str(w.get_humidity()) + "%")
+
+input("Press Enter to continue...")
+
